@@ -24,6 +24,7 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
    1. hanya melihat data
 
 ## pencarian
+
  1.kategori ekstrakulikuler
  2.nama siswa
   
@@ -31,5 +32,5 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 ## Akun default untuk pengujian  
 
 - pengguna
-  email : admin@email.com
-  password : 12345
+  email : admin@gmail.com
+  password : admin123
