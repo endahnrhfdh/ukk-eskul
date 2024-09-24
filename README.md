@@ -5,24 +5,25 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 
 ## Fitur yang tersedia
 - login
+- logout
 - Halaman pengguna
 - Halaman tamu
    
-- Authentication
+## Authentication
    -Login
 
-- Multiuser
+## Multiuser
   - pengguna
    1. menambah data
    2. mengedit data
    3. menghapus data
    4. upload file
    5. melihat semua data
-  -tamu
-     1. hanya melihat data
--Login
--Logout
--pencarian
+      
+  - tamu
+   1. hanya melihat data
+
+## pencarian
  1.kategori ekstrakulikuler
  2.nama siswa
   
