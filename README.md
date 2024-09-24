@@ -10,7 +10,7 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 - Halaman tamu
    
 ## Authentication
-   -Login
+   - Login
 
 ## Multiuser
   - pengguna
@@ -26,6 +26,7 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 ## pencarian
 
  1.kategori ekstrakulikuler
+ 
  2.nama siswa
   
 
@@ -34,3 +35,26 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 - pengguna
   email : admin@gmail.com
   password : admin123
+
+## Teknologi yang di gunakan
+ - laravel 10
+ - bootstrap 5
+
+## Persyaratan melakukan instalasi
+  - PHP 8.1.0 & Web server
+  - Database (laragon)
+  - Web Browser (Chrome atau Firefox)
+
+## Instalasi
+ 1. clonerepositor
+  git clone (https://github.com/endahnrhfdh/ukk-eskul).git cd ukk-eskul
+ 2. composer install
+ 3. mendownload database :     cp.env.example .env
+ 4. konfigurasi database pada file .env
+    
+ php artisan key:generate php artisan storage:link php artisan migrate --seed
+ 
+6. menjalankan server
+      php artisan serve
+    
+  ##   ukk-eskul di buat oleh ndahh
