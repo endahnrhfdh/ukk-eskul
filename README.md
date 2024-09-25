@@ -27,14 +27,39 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 
  1.kategori ekstrakulikuler
  
- 2.nama siswa
+ 2.nama siswa,kelas siswa,alamat siswa,ekstrakulikuler yg diikuti
   
 
 ## Akun default untuk pengujian  
 
 - pengguna
+  
   email : admin@gmail.com
+  
   password : admin123
+
+
+## ERD
+
+
+
+
+
+
+
+  
+
+## UML Diagram Use Case
+
+
+
+
+
+
+
+
+
+
 
 ## Teknologi yang di gunakan
  - laravel 10
@@ -46,15 +71,21 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
   - Web Browser (Chrome atau Firefox)
 
 ## Instalasi
- 1. clonerepositor
-  git clone (https://github.com/endahnrhfdh/ukk-eskul).git cd ukk-eskul
+ 1. clone repositori
+    
+  git clone (https://github.com/endahnrhfdh/ukk-eskul).git 
+  cd ukk-eskul
+  
  2. composer install
- 3. mendownload database :     cp.env.example .env
- 4. konfigurasi database pada file .env
+
+ 3.mendownload database :     cp.env.example .env
+ 
+ 4.konfigurasi database pada file .env
     
  php artisan key:generate php artisan storage:link php artisan migrate --seed
  
-6. menjalankan server
+ 5.menjalankan server
+ 
       php artisan serve
     
-  ##   ukk-eskul di buat oleh ndahh
+## ukk eskul di buat oleh ndahh
